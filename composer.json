@@ -16,7 +16,7 @@
     "extra": {
         "laravel":{
             "providers":[
-                "\\Luminouslabs\\Installer\\Providers\\LuminousLabsServiceProvider"
+                "Luminouslabs\\Installer\\Providers\\LuminousLabsServiceProvider"
             ]
         }
     },
