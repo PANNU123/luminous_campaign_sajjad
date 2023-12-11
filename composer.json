@@ -1,7 +1,7 @@
 {
     "name": "luminous_sajjad/campaign_sajjad",
     "description": "This is app loyality campaign package",
-    "type": "composer-plugin",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -20,6 +20,9 @@
             ]
         }
     },
-    "minimum-stability": "stable",
-    "require": {}
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.0 || ^7.1 || ^7.2 || ^7.3 || ^7.4|^8.0"
+    }
 }
